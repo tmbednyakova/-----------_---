@@ -8,11 +8,12 @@
 </head>
 <body>
     <nav class="wrapper">
-    <ol class="nav">
-        <li><a href="manager.html" target="_blank">Интерфейс РОП</a></li>
-        <li><a href="teacher.html" target="_blank">Интерфейс преподавателя</a></li>
-        <li><a href="tamplate.html" target="_blank">Шаблон РПД</a></li>
-    </ol>
+        <ol class="nav">
+            <li><a href="manager.html" target="_blank">Интерфейс РОП</a></li>
+            <li><a href="teacher.html" target="_blank">Интерфейс преподавателя</a></li>
+            <li><a href="template.html" target="_blank">Шаблон РПД</a></li>
+            <li><a href="example_RPD.html" target="_blank">Пример РПД</a></li>
+        </ol>
     </nav>
     <main class="wrapper">
         <h1>Подготовка комплекта РПД <br>
@@ -75,12 +76,14 @@
         </h3>
 
     </form>
-        <h1>Создание комплекта РПД на новый учебный год</h1>
-        <!-- <h1>Редактирование комплекта РПД</h1> -->
         <div>
             <span>Загрузка данных из 1С и формирование шаблонов для РПД</span> <br>
             <!-- загружаются дисциплины направления на новый учебный год -->
-            <button>Создать комплект РПД</button>
+            <button>Создать комплект РПД</button> <br>
+            <span>Загрузка существующих РПД</span> <br>
+            <!-- загружаются дисциплины направления на новый учебный год -->
+            <button>Загрузить комплект РПД</button>
+
         </div>
             <div>После нажатия на кнопку загружаются данные и  отображается список из названия дисциплин и преподавателей ответственных за РПД. При клике мыши по дисциплине открывается РПД.
             </div>
@@ -93,7 +96,7 @@
                         <th>статус</th>
                     </tr>
                     <tr>
-                        <td>Введение в программирование</td>
+                        <td><a href="example_disc.html">Введение в программирование</a></td>
                         <td>
                             <select name="teachers" id="teachers">
                                 <!-- из шаблона РПД прошлого года -->
@@ -140,10 +143,11 @@
             </table>
             </div>
             <div>
-                <button>Сохранить изменения</button>
-                <button>Отправить РПД преподавателю </button>
                 <div>Протокол заседания № <input type="text"> от <input type="date">
-                </div><button>Сохранить изменения</button>
+                <button>Сохранить номер протокола</button></div>
+
+                <button>Сохранить список преподавателей</button>
+                <button>Отправить РПД преподавателю</button>
             </div>
 
     </main>

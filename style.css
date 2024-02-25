@@ -70,3 +70,15 @@ textarea
 {
     width: 20px;
 }
+.fix-button
+{
+    position: fixed;
+    bottom: 40px;
+    width: 50px;
+    margin: auto;
+}
+.margin-bottom
+{
+    margin-bottom: 45px;
+    height: 20px;
+}

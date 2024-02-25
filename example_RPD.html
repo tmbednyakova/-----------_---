@@ -8,11 +8,12 @@
 </head>
 <body>
     <nav class="wrapper">
-    <ol class="nav">
-        <li><a href="manager.html" target="_blank">Интерфейс РОП</a></li>
-        <li><a href="teacher.html" target="_blank">Интерфейс преподавателя</a></li>
-        <li><a href="tamplate.html" target="_blank">Шаблон РПД</a></li>
-    </ol>
+        <ol class="nav">
+            <li><a href="manager.html" target="_blank">Интерфейс РОП</a></li>
+            <li><a href="teacher.html" target="_blank">Интерфейс преподавателя</a></li>
+            <li><a href="template.html" target="_blank">Шаблон РПД</a></li>
+            <li><a href="example_RPD.html" target="_blank">Пример РПД</a></li>
+        </ol>
     </nav>
     <main class="wrapper">
     <h2>Разделы РПД:</h2>
@@ -28,24 +29,19 @@
         <li><a href="#9">Фонды оценочных средств по дисциплине</a></li>
         <li><a href="#10">Ресурсное обеспечение</a></li>
     </ol>
-    <ol>
+    <ol >
         <!-- титульный лист -->
         <li id="1">
             <h2>Титульный лист</h2>
             <div class="template">
                 Федеральное государственное бюджетное образовательное учреждение высшего образования Университет «Дубна» (государственный университет «Дубна»)<br>
                 <span>общее для всего университета, вписано в шаблон</span><br>
-                
-                <button onclick="textarea_uni_name.style.display = 'block';">редактировать</button> <br>
-
-                <textarea name="" id="textarea_uni_name" rows="3" style = "display: none;">Федеральное государственное бюджетное образовательное учреждение высшего образования Университет «Дубна» (государственный университет «Дубна»)</textarea>
-
             </div>
-            <div class = "add-manager">
+            <div class = "add-manager" id = "faculty">
                 Институт системного анализа и управления<br>
                 <span>указываются РОП при запросе данных</span>
             </div>
-            <div class = "add-manager">
+            <div class = "add-manager" id="department">
                 Кафедра распределенных информационно-вычислительных систем<br>
                 <span>из учебного плана для каждой дисциплины</span>
             </div>
@@ -460,9 +456,12 @@
             </div>
 
         </li>
-
-
     </ol>
 </main>
+<footer class="margin-bottom">
+    <div class="fix-button">
+        <button>просмотреть РПД</button>
+    </div>
+</footer>
 </body>
 </html>

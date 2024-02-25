@@ -1,0 +1,42 @@
+span
+{
+    font-size: xx-small;
+    color: green;
+}
+.template
+{
+    font-size: medium;
+    font-weight: bold;
+}
+.add-manager
+{
+    font-size: larger;
+}
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    border-bottom: solid 1px green;
+    padding-bottom: 10px;
+}
+.wrapper
+{
+    width: 80%;
+    margin: auto;
+}
+td
+{
+    border-top: solid 1px green;
+    padding: 10px;
+}
+table
+{
+    border-spacing: 0px;
+
+}
+div
+{
+    margin-bottom: 40px;
+}

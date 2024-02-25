@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>РПД, шаблон</title>
 </head>
 <body>
-    
+    <nav class="wrapper">
+    <ol class="nav">
+        <li><a href="manager.html" target="_blank">Интерфейс РОП</a></li>
+        <li><a href="teacher.html" target="_blank">Интерфейс преподавателя</a></li>
+        <li><a href="tamplate.html" target="_blank">Шаблон РПД</a></li>
+    </ol>
+    </nav>
+    <main class="wrapper">
+    <ol>
+        <!-- титульный лист -->
+        <li>
+            <h2>Титульный лист</h2>
+            <div class="template">
+                Федеральное государственное бюджетное образовательное учреждение высшего образования Университет «Дубна» (государственный университет «Дубна»)<br>
+                <span>общее для всего университета, вписано в шаблон</span><br>
+                <button onclick="textarea_uni_name.style.display = 'block';">редактировать</button> <br>
+                <textarea name="" id="textarea_uni_name" rows="3" style = "display: none;">Федеральное государственное бюджетное образовательное учреждение высшего образования Университет «Дубна» (государственный университет «Дубна»)</textarea>
+
+            </div>
+            <div class = "add-manager">
+                Институт системного анализа и управления<br>
+                <span>указываются РОП при запросе данных</span>
+            </div>
+            <div class = "add-manager">
+                Кафедра распределенных информационно-вычислительных систем<br>
+                <span>из учебного плана для каждой дисциплины</span>
+            </div>
+            <div class="template">
+                Утверждаю <br>
+                и.о. проректора по учебно-методической работе <br>
+                __________________/ Анисимова О.В. <br>
+                __________________202_ год <br>
+                <span>общее для всего университета, вписано в шаблон</span> <br>
+                <button onclick="approve.style.display = 'block';">редактировать</button> <br>
+                <textarea name="" id="approve" rows="3" style = "display: none;">Федеральное государственное бюджетное образовательное учреждение высшего образования Университет «Дубна» (государственный университет «Дубна»)</textarea>
+            </div>
+            <div class="template">
+                Рабочая программа дисциплины
+            </div>
+            <div class = "add-manager">
+                Введение в программирование <br>
+                <span>из учебного плана</span>
+            </div>
+            <div class="template">
+            Направление подготовки
+            </div>
+            <div class = "add-manager">
+                09.03.01 Информатика и вычислительная техника <br>
+                <span>указываются РОП при запросе данных</span>
+            </div>
+            <div class="template">
+                Профиль
+            </div>
+            <div class = "add-manager">
+                Технология разработки программного обеспечения <br>
+                <span>указываются РОП при запросе данных</span>
+            </div>
+            <div class="template">Уровень высшего образования</div>
+            <div class="add-manager">Бакалавриат <br>
+            <span>указываются РОП при запросе данных</span></div>
+            <div class="template">Форма обучения</div>
+            <div class="add-manager">Очная <br>
+                <span>указываются РОП при запросе данных</span>
+            </div>
+            <div class="template">г. Дубна, 2023 г.</div>
+        </li>
+        <!--содержание программы  -->
+        <!-- лист согалсования -->
+        <li>
+            <h2>Лист согалсования</h2>
+            <div class="template">
+                Автор программы:
+            </div>
+            <div class="add-manager">
+                Беднякова Т.М. <br>
+                <span>ФИО преподавателя, задает РОП</span> <br>
+                ____________________ (подпись)
+            </div>
+
+        </li>
+    </ol>
+</main>
 </body>
 </html>

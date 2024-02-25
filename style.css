@@ -3,6 +3,23 @@ span
     font-size: xx-small;
     color: green;
 }
+.insert
+{
+    font-size:medium;
+    color: black;
+    font-weight: bold;
+}
+.select
+{
+    font-size:medium;
+    color: black;
+    font-weight: bold;
+}
+.error
+{
+    color: red;
+    font-weight: bold;
+}
 .template
 {
     font-size: medium;
@@ -33,10 +50,23 @@ td
 }
 table
 {
-    border-spacing: 0px;
-
+    border-collapse: collapse;
+    width: 100%;
 }
 div
 {
     margin-bottom: 40px;
+}
+textarea
+{
+    width: 100%;
+}
+#t
+{
+    width: 40%;
+}
+
+.input-num
+{
+    width: 20px;
 }
